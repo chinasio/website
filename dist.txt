@@ -1,0 +1,1 @@
+hugo --baseUrl="https://chinasio.github.io/"
