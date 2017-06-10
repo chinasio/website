@@ -1,0 +1,66 @@
+baseURL = "https://chinasio.github.io/"
+languageCode = "zh-cmn-Hans"
+title = "行走在 GIS 边缘"
+
+paginate = 10
+disablePathToLower = true
+preserveTaxonomyNames = true
+hasCJKLanguage = true
+defaultLayout = "blog"
+ignoreFiles = ["gmt-chinese-users.dat",
+               "GeoJSON.pl",
+               "gmt.history",
+               "gmt.conf",
+               "\\.ps$",
+              ]
+
+[blackfriday]
+    hrefTargetBlank = true
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    author = "authors"
+
+[permalinks]
+    blog = "/blog/:slug/"
+
+[author]
+    name = "forget"
+    email = "yangchguo@gmail.com"
+
+[params]
+    description = " "
+    copyright = "Powered by [Hugo](https://gohugo.io) & Hosted by [GitHub](https://github.com/)."
+
+    # Format dates with Go's time formating
+    since = 2017
+    date_format = "2006年01月02日"
+
+    #sectionsInBlog = ["blog", "example"]
+    #sectionsInGallery = ["example"]
+
+    #userMap = "gmt-chinese-users.json"
+
+
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+[[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "文档"
+    url = "/docs/"
+    weight = 2
+
+[[menu.main]]
+    name = "博客"
+    url = "/blog/"
+    weight = 3
+
+[[menu.main]]
+    name = "数据"
+    url = "/data/"
+    weight = 4

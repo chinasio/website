@@ -1,0 +1,6 @@
+# hugo output directory
+public/
+# GMT related files
+*.ps
+gmt.history
+gmt.conf

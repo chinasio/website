@@ -1,0 +1,34 @@
+#
+# key 必须唯一且不能是中文
+#
+[TianDongdong]
+    name = "seisman"
+    email = "seisman.info@gmail.com"
+    avatar = "/avatars/TianDongdong.jpg"
+    homepage = "http://seisman.info"
+
+[WangLiang]
+    name = "王亮"
+    avatar = "/avatars/WangLiang.jpg"
+
+[LiuZhumei]
+    name = "忆尤"
+    avatar = "/avatars/LiuZhumei.jpg"
+
+[LuoNa]
+    name = "罗娜"
+
+[XiaoXiao]
+    name = "Seispider"
+    avatar = "/avatars/XiaoXiao.jpg"
+
+[YuShan]
+    name = "虎哥"
+    avatar = "/avatars/YuShan.jpg"
+
+[DengShanquan]
+    name = "邓山泉"
+    avatar = "/avatars/DengShanquan.jpg"
+
+[LiXianrui]
+    name = "lxrat"

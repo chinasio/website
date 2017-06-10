@@ -1,0 +1,21 @@
+language: python
+python: 3.6
+
+branches:
+  only:
+  - master
+
+install:
+  - wget https://github.com/spf13/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.tar.gz
+  - tar -xvf hugo_0.21_Linux-64bit.tar.gz hugo
+  - pip install -r requirements.txt
+
+script:
+  - ./hugo
+  - ./css-html-js-minify.py public --overwrite
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: ${GH_TOKEN}
+  local_dir: public
